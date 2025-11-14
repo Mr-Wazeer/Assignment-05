@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_Table_Practies</title>
+</head>
+<body>
+    <!-- start table  -->
+    <table border="10" width="100%" align="center" cellpadding="10" cellspacing="10">
+        <thead>
+            <caption><b><i><h1>STUDENT RESULT</h1></b></i></caption>
+            <tr>
+                <th>Student Name</th>
+                <th>Math</th>
+                <th>English</th>
+                <th>Science</th>
+                <th>Computer</th>
+                <th>Total Attendance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- START ALI  -->
+            <tr>
+                <td>Ali</td>
+                <td>P</td>
+                <td>P</td>
+                <td>A</td>
+                <td>P</td>
+                <td>3</td>
+            </tr>
+            <!-- START AYESHA -->
+              <tr>
+                <td>Ayesha</td>
+                <td>P</td>
+                <td>P</td>
+                <td>P</td>
+                <td>P</td>
+                <td>4</td>
+            </tr>
+            <!-- START HINA -->
+              <tr>
+                <td>Hina</td>
+                <td>A</td>
+                <td>P</td>
+                <td>P</td>
+                <td>P</td>
+                <td>3</td>
+            </tr>
+            <!-- START SARA -->
+              <tr>
+                <td>Sara</td>
+                <td>P</td>
+                <td>A</td>
+                <td>P</td>
+                <td>P</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- START OMAR -->
+              <tr>
+                <td>Omar</td>
+                <td>P</td>
+                <td>P</td>
+                <td>P</td>
+                <td>A</td>
+                <td>3</td>
+            </tr>  
+        </tfoot>
+    </table>
+
+    <!-- MERGE TABLE  -->
+     <table border="5" cellpadding="10" cellspacing="10" width="100%">
+        <thead>
+            <caption><b><i><h1>Student Marks</h1></i></b></caption>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Ali</td>
+                <td>Math</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <!-- <td>Ali</td> -->
+                <td>Science</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>Wazeer</td>
+                <td>Math</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+        <tfoot>
+             <tr>
+                <td>Wazeer</td>
+                <td>Science</td>
+                <td>78</td>
+            </tr>
+        </tfoot>
+     </table>
+
+
+
+
+
+
+
+
+
+
+     <h1 align="center ">HTML_Table</h1>
+    <table
+      border="5"
+      cellpadding="10"
+      cellspacing="10"
+      bgcolor="blue"
+      align="center"
+      width="100%"
+    >
+      <!-- Table Head -->
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>Subject</th>
+          <th>Marks</th>
+        </tr>
+      </thead>
+      <!-- Table Body  -->
+      <tbody>
+        <!-- Bilal  -->
+        <tr>
+          <td>Bilal</td>
+          <td>Math</td>
+          <td>53</td>
+        </tr>
+        <!-- Wazeer -->
+        <tr>
+          <td>Wazeer</td>
+          <td>Math</td>
+          <td>82</td>
+        </tr>
+        <!-- Hamza  -->
+        <tr>
+          <td>Hamza</td>
+          <td>Math</td>
+          <td>67</td>
+        </tr>
+        <!-- Hammad  -->
+        <tr>
+          <td>Hammad</td>
+          <td>Math</td>
+          <td>46</td>
+        </tr>
+        <!-- Shohaib -->
+        <tr>
+          <td>Shohaib</td>
+          <td>Math</td>
+          <td>89</td>
+        </tr>
+      </tbody>
+      <!-- Table Footer  -->
+      <tfoot>
+        <tr>
+          <td colspan="3">
+            Total Pass
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            03
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+
+
+
+
+
+  <caption><h1 align="center">  Restruent Menu</h1>
+    
+    </caption>
+    <table border="1" cellpadding="10" cellspacing="10" width="100%">
+      <thead>
+        <tr>
+          <th rowspan="2">Meal Type</th>
+          <th rowspan="2">Item</th>
+          <th colspan="2">Price</th>
+        </tr>
+        <tr>
+          <th>Half</th>
+          <th>Full</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Breakfast</td>
+          <td>Omelette</td>
+          <td>80</td>
+          <td>120</td>
+        </tr>
+        <tr>
+          <td>Parhata</td>
+          <td>80</td>
+          <td>120</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Lunch</td>
+          <td>Chicken Biryani</td>
+          <td>120</td>
+          <td>250</td>
+        </tr>
+        <tr>
+          <td>Veg Pulao</td>
+          <td>120</td>
+          <td>200</td>
+        </tr>
+        <tr>
+          <td rowspan="2  ">Dinner</td>
+          <td>BBQ</td>
+          <td>150</td>
+          <td>250</td>
+        </tr>
+        <tr>
+          <td>Karahi</td>
+          <td>120</td>
+          <td>200</td>
+        </tr>
+      </tbody>
+    </table>
+  
+
+</body>
+</html>
